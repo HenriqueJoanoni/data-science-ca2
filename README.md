@@ -8,14 +8,14 @@ predictive modelling, and presentation of findings.
 ## Contents
 
 - [NBA Player Performance Prediction](#nba-player-performance-prediction)
-    - [Contents](#contents)
-    - [Objective](#objective)
-    - [Business Context](#business-context)
-    - [Project Steps](#project-steps)
-    - [How to Run](#how-to-run)
-    - [Dependencies](#dependencies)
-    - [Authors](#authors)
-        - [This project is academic and uses public NBA data for the purpose of studying and demonstrating data science techniques applied to sports.](#this-project-is-academic-and-uses-public-nba-data-for-the-purpose-of-studying-and-demonstrating-data-science-techniques-applied-to-sports)
+  - [Contents](#contents)
+  - [Objective](#objective)
+  - [Business Context](#business-context)
+  - [Project Steps](#project-steps)
+  - [How to Run](#how-to-run)
+  - [Dependencies](#dependencies)
+  - [Authors](#authors)
+      - [This project is academic and uses public NBA data for the purpose of studying and demonstrating data science techniques applied to sports.](#this-project-is-academic-and-uses-public-nba-data-for-the-purpose-of-studying-and-demonstrating-data-science-techniques-applied-to-sports)
 
 ## Objective
 
@@ -46,25 +46,25 @@ Accurate player performance prediction is crucial for:
 
 1. **Clone the repository**:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/HenriqueJoanoni/data-science-ca2.git
    cd nba-player-performance
    ```
 
 2. **Create and activate a virtual environment**:
     ```sh
-        python3 -m venv nba_env
-        source nba_env/bin/activate
-   ```
+    python3 -m venv nba_env
+    source nba_env/bin/activate
+    ```
 
 3. **Install Dependencies**:
    ```sh
-        pip install -r requirements.txt
+    pip install -r requirements.txt
     ```
 
 4. **Run the notebook**:
-   ```sh
-        jupyter notebook nba_data_mining.ipynb
-   ```
+    ```sh
+    jupyter notebook nba_data_mining.ipynb
+    ```
 
 ## Dependencies
 
