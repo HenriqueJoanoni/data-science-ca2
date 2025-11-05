@@ -58,6 +58,7 @@ Accurate player performance prediction is crucial for:
 
 3. **Install Dependencies**:
    ```sh
+    pip install nba_api
     pip install -r requirements.txt
     ```
 
